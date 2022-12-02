@@ -11,13 +11,62 @@ html {
 }
 
 body {
-  background-color: #FEF5E7;
+  background-color: #ffff;
   margin: 1em;
   padding: 2rem;
 }
 
 img {
   width: 100%;
+}
+
+h1 {
+  font-family: dazzle-unicase, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+}
+
+h2 {
+  font-family: dazzle-unicase, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 26.6px;
+}
+
+h3 {
+  font-family: dazzle-unicase, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 24px;
+}
+
+h4 {
+  font-family: dazzle-unicase, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 20px;
+}
+
+h5, nav {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 21.3px;
+}
+
+h6 {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+}
+
+p {
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18.6px;
 }
 
 .wrapper {
@@ -51,6 +100,10 @@ button {
   border: 2px solid #000;
   background-color: #fff;
   border-radius: 5px;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 21.3px;
 }
 
 button:hover,
