@@ -116,6 +116,7 @@ button:focus {
 footer {
   text-align: center;
   padding: 3rem;
+  background-color: #000;
 }
 
 /*  tablet */
