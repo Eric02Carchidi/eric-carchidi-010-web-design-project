@@ -12,6 +12,9 @@ html {
 
 body {
   background-color: #ffff;
+}
+
+main {
   margin: 1em;
   padding: 2rem;
 }
@@ -20,11 +23,30 @@ img {
   width: 100%;
 }
 
+ol {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+nav {
+  color: #fff;
+}
+
+li {
+  display: inline-block;
+  margin: 1rem;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 21.3px;
+}
+
 h1 {
   font-family: dazzle-unicase, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 40px;
+  color: #fff;
 }
 
 h2 {
@@ -67,6 +89,11 @@ p {
   font-weight: 500;
   font-style: normal;
   font-size: 18.6px;
+  padding: 1rem;
+}
+
+.logo {
+  color: #fff;
 }
 
 .wrapper {
@@ -74,10 +101,43 @@ p {
   margin: 0 auto;
 }
 
+section {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+}
+
+div {
+  flex-direction: row;
+  display: inline-block;
+  margin: auto;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 1em;
+  padding: 2rem;
+  background-color: #000;
+  background-size: 100px;
+  background-position: center;
+  background-image: url("images/banner.jpg");
+}
+
+header img {
+  min-width: 50px;
+  max-width: 100px;
+}
+
+.runway img{
+  width: 100px;
+  justify-content: center;
+}
+.artists img {
+  min-width: 50px;
+  max-width: 300px;
+  padding: 20px;
 }
 
 header nav ul {
@@ -104,6 +164,8 @@ button {
   font-weight: 500;
   font-style: normal;
   font-size: 21.3px;
+  max-width: 150px;
+  max-height: 50px;
 }
 
 button:hover,
@@ -115,8 +177,15 @@ button:focus {
 
 footer {
   text-align: center;
-  padding: 3rem;
+  padding: 4rem;
   background-color: #000;
+  color: #fff;
+  margin: 00px 00px 00px 00px;
+}
+
+footer img {
+  min-width: 50px;
+  max-width: 100px;
 }
 
 /*  tablet */
