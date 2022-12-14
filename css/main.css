@@ -61,6 +61,7 @@ h3 {
   font-weight: 400;
   font-style: normal;
   font-size: 24px;
+  padding: 1rem;
 }
 
 h4 {
@@ -96,10 +97,6 @@ p {
   color: #fff;
 }
 
-.wrapper {
-  max-width: 1400px;
-  margin: 0 auto;
-}
 
 section {
   display: flex;
@@ -108,26 +105,38 @@ section {
 }
 
 div {
-  flex-direction: row;
   display: inline-block;
   margin: auto;
 }
 
-header {
+.top {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  margin: 1em;
+  padding: 2rem;
+}
+
+header div {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+header {
   justify-content: space-between;
   align-items: center;
   margin: 1em;
   padding: 2rem;
   background-color: #000;
+  background-image: url("images/playat.jpg");
   background-size: 100px;
   background-position: center;
-  background-image: url("images/banner.jpg");
 }
 
 header img {
-  min-width: 50px;
-  max-width: 100px;
+width: 50px;
 }
 
 .runway img{
@@ -174,6 +183,7 @@ button:focus {
   background-color: #ff0000;
   color: #fff;
 }
+
 
 footer {
   text-align: center;
