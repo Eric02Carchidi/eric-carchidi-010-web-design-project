@@ -121,10 +121,10 @@ header div {
 header {
   justify-content: space-between;
   align-items: center;
-  background-color: #000;
-  background-image: url("images/banner.jpg");
-  background-size: 100px;
+  background-color: #111;
+  background-image: url(../images/banner.jpg);
   background-position: center;
+  background-size: cover;
 }
 
 header img {
