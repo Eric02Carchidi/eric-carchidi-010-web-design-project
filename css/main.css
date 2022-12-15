@@ -12,10 +12,10 @@ html {
 
 body {
   background-color: #ffff;
+  margin: auto;
 }
 
 main {
-  margin: 1em;
   padding: 2rem;
 }
 
@@ -28,8 +28,14 @@ ol {
   padding: 0;
   list-style-type: none;
 }
-nav {
+nav li {
   color: #fff;
+  display: inline-block;
+  margin: 1rem;
+  font-family: itc-avant-garde-gothic-pro, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 21.3px;
 }
 
 li {
@@ -45,7 +51,7 @@ h1 {
   font-family: dazzle-unicase, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 40px;
+  font-size: 35px;
   color: #fff;
 }
 
@@ -53,14 +59,14 @@ h2 {
   font-family: dazzle-unicase, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 26.6px;
+  font-size: 20px;
 }
 
 h3 {
   font-family: dazzle-unicase, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 24px;
+  font-size: 20px;
   padding: 1rem;
 }
 
@@ -68,33 +74,22 @@ h4 {
   font-family: dazzle-unicase, sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 20px;
+  font-size: 16px;
 }
 
 h5, nav {
   font-family: itc-avant-garde-gothic-pro, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 21.3px;
-}
-
-h6 {
-  font-family: itc-avant-garde-gothic-pro, sans-serif;
-  font-weight: 500;
-  font-style: normal;
-  font-size: 20px;
+  font-size: 25px;
 }
 
 p {
   font-family: itc-avant-garde-gothic-pro, sans-serif;
-  font-weight: 500;
+  font-weight: 200;
   font-style: normal;
-  font-size: 18.6px;
+  font-size: 16px;
   padding: 1rem;
-}
-
-.logo {
-  color: #fff;
 }
 
 
@@ -109,12 +104,11 @@ div {
   margin: auto;
 }
 
-.top {
+.top, footer {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: stretch;
-  margin: 1em;
   padding: 2rem;
 }
 
@@ -127,26 +121,38 @@ header div {
 header {
   justify-content: space-between;
   align-items: center;
-  margin: 1em;
-  padding: 2rem;
   background-color: #000;
-  background-image: url("images/playat.jpg");
+  background-image: url("images/banner.jpg");
   background-size: 100px;
   background-position: center;
 }
 
 header img {
-width: 50px;
+width: 40px;
+color: #fff;
+}
+
+.catwalk {
+  display: flex;
+  flex-direction: column;
+}
+
+.artists img {
+  min-width: 100px;
+  max-width: 500px;
 }
 
 .runway img{
-  width: 100px;
-  justify-content: center;
+  width: 136px;
+  justify-content: space-around;
 }
-.artists img {
-  min-width: 50px;
-  max-width: 300px;
-  padding: 20px;
+
+.performers img {
+
+}
+
+.brand img {
+max-width: 800px;
 }
 
 header nav ul {
@@ -166,7 +172,6 @@ header nav ul li a:focus {
 
 button {
   color: #000;
-  border: 2px solid #000;
   background-color: #fff;
   border-radius: 5px;
   font-family: itc-avant-garde-gothic-pro, sans-serif;
@@ -184,22 +189,125 @@ button:focus {
   color: #fff;
 }
 
-
 footer {
   text-align: center;
   padding: 4rem;
   background-color: #000;
   color: #fff;
-  margin: 00px 00px 00px 00px;
 }
 
 footer img {
-  min-width: 50px;
-  max-width: 100px;
+width: 40px;
 }
 
 /*  tablet */
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 600px) {
 
-/* desktop */
-@media only screen and (min-width: 1280px) {
+  h1 {
+    font-size: 20px;
+  }
+
+  header img {
+  width: 30px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+
+  h4 {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 21.3px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .runway img{
+    width: 105px;
+    justify-content: center;
+  }
+
+  .performers img {
+
+  }
+
+  footer img {
+    width: 30px;
+  }
+
+}
+
+/* mobile */
+@media only screen and (max-width: 500px) {
+
+  section {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  h1 {
+    font-size: 17px;
+  }
+
+  header img {
+  width: 25px;
+  }
+
+  h2 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  h4 {
+    font-size: 16px;
+  }
+
+  h5 {
+    font-size: 14px;
+  }
+
+  p {
+    font-size: 18.6px;
+  }
+
+  .runway img{
+    width: 140px;
+    justify-content: center;
+  }
+
+  .performers img {
+
+  }
+
+footer img {
+  width: 25;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #000;
+  }
+  .runway {
+  background-color: #fff;
+  }
+  .runway h3{
+    color: #000;
+  }
+  h2, h3, h4, p, li {
+    color: #fff;
+  }
+}

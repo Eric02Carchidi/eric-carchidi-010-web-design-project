@@ -1,1 +1,17 @@
-<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1575.9 1413.88"><defs><style>.cls-1{fill:#231f20;}</style></defs><g id="Layer_1-2" data-name="Layer 1"><path id="Path_1" data-name="Path 1" class="cls-1" d="M609.92,1000.72l564.21-525.29-131-140.66L338.31,991l656.25,704.86,140.65-131Z" transform="translate(-212.05 -293.06)"/><path id="Path_2" data-name="Path 2" class="cls-1" d="M1223.74,1002,1788,476.68,1657,336,952.13,992.28l656.25,704.85,140.66-131Z" transform="translate(-212.05 -293.06)"/><rect id="Rectangle_1" data-name="Rectangle 1" class="cls-1" x="318.69" y="628.79" width="678.03" height="187.41"/><rect id="Rectangle_2" data-name="Rectangle 2" class="cls-1" x="1031.67" y="1267.05" width="146.84" height="146.84"/><path id="Path_3" data-name="Path 3" class="cls-1" d="M401.21,851.81,800.64,484.13,283.52,323.69Z" transform="translate(-212.05 -293.06)"/><path id="Path_4" data-name="Path 4" class="cls-1" d="M680.13,525.78" transform="translate(-212.05 -293.06)"/><path id="Path_5" data-name="Path 5" class="cls-1" d="M401.21,851.81,212.05,651l320.12-66.93,58.2-291L800.64,484.13" transform="translate(-212.05 -293.06)"/></g></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.3, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 1575.9 1413.9" style="enable-background:new 0 0 1575.9 1413.9;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFFFFF;}
+</style>
+<g id="Layer_1-2">
+	<path id="Path_1" class="st0" d="M397.9,707.7l564.2-525.3l-131-140.7L126.3,697.9l656.2,704.9l140.6-131L397.9,707.7z"/>
+	<path id="Path_2" class="st0" d="M1011.7,708.9l564.3-525.3l-131-140.7L740.1,699.2l656.2,704.9l140.7-131L1011.7,708.9z"/>
+	<rect id="Rectangle_1" x="318.7" y="628.8" class="st0" width="678" height="187.4"/>
+	<rect id="Rectangle_2" x="1031.7" y="1267.1" class="st0" width="146.8" height="146.8"/>
+	<path id="Path_3" class="st0" d="M189.2,558.8l399.4-367.7L71.5,30.6L189.2,558.8z"/>
+	<path id="Path_4" class="st0" d="M468.1,232.7"/>
+	<path id="Path_5" class="st0" d="M189.2,558.8L0,357.9L320.1,291L378.3,0l210.3,191.1"/>
+</g>
+</svg>
